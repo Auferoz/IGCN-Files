@@ -133,15 +133,16 @@
 	<Message Day="[SERVER RATES] Day Rates on going!" Night="[SERVER RATES] Night Rates on going, enjoy!" />
 	
 	<VipTypes>	
+	
 		<Vip Type="1" Name="Bronze" ML_MonsterMinLevel="95" MJ_MonsterMinLevel="160" PointPerResetBonus="50" ResetStayOnPosition="0" ResetMoveToCharSelectWindow="0" NightStartHour="22" NightStartMinute="0" NightEndHour="7" NightEndMinute="30">
 			<Day ExpBonus="0.0" DropBonus="0" MasterExpBonus="0.0" MasterDropBonus="0" MajesticExpBonus="0.0" MajesticDropBonus="0" OffLevelExp="1.0" />
 			<Night ExpBonus="0.0" DropBonus="0" MasterExpBonus="0.0" MasterDropBonus="0" MajesticExpBonus="0.0" MajesticDropBonus="0" OffLevelExp="1.0" />
 			
 			<ChaosBoxMixRates>
-				<Normal Level10="60" Level11="60" Level12="60" Level13="55" Level14="55" Level15="50" AddLuck="25" />
-				<Enhanced Level10="50" Level11="50" Level12="50" Level13="45" Level14="45" Level15="40" AddLuck="25" />
-				<Socket Level10="40" Level11="40" Level12="40" Level13="35" Level14="35" Level15="30" AddLuck="25" SocketWeapon="40" />
-				<Pentagram Level10="40" Level11="40" Level12="40" Level13="35" Level14="35" Level15="30" AddLuck="25" />
+				<Normal Level10="20" Level11="20" Level12="20" Level13="20" Level14="20" Level15="20" AddLuck="20" />
+				<Enhanced Level10="20" Level11="20" Level12="20" Level13="20" Level14="20" Level15="20" AddLuck="20" />
+				<Socket Level10="20" Level11="20" Level12="20" Level13="20" Level14="20" Level15="20" AddLuck="20" SocketWeapon="40" />
+				<Pentagram Level10="20" Level11="20" Level12="20" Level13="20" Level14="20" Level15="20" AddLuck="20" />
 				<Wing Second="90" Monster="60" Third_Feather="40" Third_Relic="24" Fourth_Feather="40" Fourth_Relic="24" Fifth_Relic="24" />
 			</ChaosBoxMixRates>
 			<GiantTypeAwardRate>
@@ -150,15 +151,16 @@
 				<Giant Type="3" Rate="2000" />
 			</GiantTypeAwardRate>
 			<EntryDailyLimit>
-				<Event Type="0" Count="6" Name="Chaos Castle" />
-				<Event Type="1" Count="6" Name="Blood Castle" />
-				<Event Type="2" Count="6" Name="Devil's Square" />
-				<Event Type="3" Count="6" Name="Imperial Fort" />
+				<Event Type="0" Count="5" Name="Chaos Castle" />
+				<Event Type="1" Count="5" Name="Blood Castle" />
+				<Event Type="2" Count="5" Name="Devil's Square" />
+				<Event Type="3" Count="5" Name="Imperial Fort" />
 				<Event Type="5" Count="3" Name="Illusion Temple" />
 				<Event Type="6" Count="6" Name="Doppelganger" />
 				<Event Type="7" Count="3" Name="Boss Battle Together" />
 			</EntryDailyLimit>
 		</Vip>
+
 		<Vip Type="2" Name="Silver" ML_MonsterMinLevel="95" MJ_MonsterMinLevel="160" PointPerResetBonus="100" ResetStayOnPosition="0" ResetMoveToCharSelectWindow="0" NightStartHour="22" NightStartMinute="0" NightEndHour="7" NightEndMinute="30">
 			<Day ExpBonus="0.0" DropBonus="0" MasterExpBonus="0.0" MasterDropBonus="0" MajesticExpBonus="0.0" MajesticDropBonus="0" OffLevelExp="1.0" />
 			<Night ExpBonus="0.0" DropBonus="0" MasterExpBonus="0.0" MasterDropBonus="0" MajesticExpBonus="0.0" MajesticDropBonus="0" OffLevelExp="1.0" />
@@ -185,6 +187,7 @@
 				<Event Type="7" Count="3" Name="Boss Battle Together" />
 			</EntryDailyLimit>
 		</Vip>
+
 		<Vip Type="3" Name="Gold" ML_MonsterMinLevel="95" MJ_MonsterMinLevel="160" PointPerResetBonus="150" ResetStayOnPosition="0" ResetMoveToCharSelectWindow="0" NightStartHour="22" NightStartMinute="0" NightEndHour="7" NightEndMinute="30">
 			<Day ExpBonus="0.0" DropBonus="0" MasterExpBonus="0.0" MasterDropBonus="0" MajesticExpBonus="0.0" MajesticDropBonus="0" OffLevelExp="1.0" />
 			<Night ExpBonus="0.0" DropBonus="0" MasterExpBonus="0.0" MasterDropBonus="0" MajesticExpBonus="0.0" MajesticDropBonus="0" OffLevelExp="1.0" />
@@ -211,6 +214,7 @@
 				<Event Type="7" Count="3" Name="Boss Battle Together" />
 			</EntryDailyLimit>
 		</Vip>
+
 		<Vip Type="4" Name="Platinum" ML_MonsterMinLevel="95" MJ_MonsterMinLevel="160" PointPerResetBonus="200" ResetStayOnPosition="0" ResetMoveToCharSelectWindow="0" NightStartHour="22" NightStartMinute="0" NightEndHour="7" NightEndMinute="30">
 			<Day ExpBonus="0.0" DropBonus="0" MasterExpBonus="0.0" MasterDropBonus="0" MajesticExpBonus="0.0" MajesticDropBonus="0" OffLevelExp="1.0" />
 			<Night ExpBonus="0.0" DropBonus="0" MasterExpBonus="0.0" MasterDropBonus="0" MajesticExpBonus="0.0" MajesticDropBonus="0" OffLevelExp="1.0" />
@@ -237,5 +241,6 @@
 				<Event Type="7" Count="3" Name="Boss Battle Together" />
 			</EntryDailyLimit>
 		</Vip>
+
 	</VipTypes>
 </VipSystem>
